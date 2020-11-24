@@ -56,3 +56,32 @@
 .input_area:focus {
   outline: none;
 }
+
+.Post {
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 4px;
+  width: 570px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: #e8e8e8;
+}
+
+.Post__title {
+  border-bottom: 1px solid rgb(137, 138, 138);
+  border-radius: 2px 2px 0 0;
+  background-color: #e8e8e8;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.Post__delete {
+  border: none;
+  background: none;
+  padding: 0;
+  float: right;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}

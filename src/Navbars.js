@@ -5,7 +5,7 @@ const Navbars = () => {
     <div>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
         <a class="navbar-brand" href="#">
-          Navbar
+          Scotth-Project
         </a>
         <button
           class="navbar-toggler"
