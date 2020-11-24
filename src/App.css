@@ -30,3 +30,10 @@
 .nav-link {
   color: beige;
 }
+
+.Input {
+  border: 1px solid grey;
+  border-radius: 4px;
+  width: 570px;
+  margin: 20px auto;
+}
