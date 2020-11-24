@@ -35,7 +35,7 @@
 .Input {
   border: 1px solid rgb(226, 226, 226);
   border-radius: 4px;
-  width: 570px;
+  width: 80%;
   margin: 20px auto;
   background-color: #e8e8e8;
 }
@@ -60,7 +60,7 @@
 .Post {
   border: 1px solid rgb(226, 226, 226);
   border-radius: 4px;
-  width: 570px;
+  width: 80%;
   padding: 15px;
   margin: 20px auto;
   background-color: #e8e8e8;
@@ -83,5 +83,9 @@
 }
 
 img {
+  width: 100%;
+}
+
+nav {
   width: 100%;
 }

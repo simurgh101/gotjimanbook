@@ -16,7 +16,11 @@ const Giphy = () => {
     };
     fetchData();
   }, []);
-return <div className="api"><img src={data.image_url} alt={data.title}  /></div>;
+  return (
+    <div className="api">
+      <img src={data.image_url} alt={data.title} />
+    </div>
+  );
 };
 
 export default Giphy;
