@@ -18,6 +18,7 @@ const Giphy = () => {
   }, []);
   return (
     <div className="api">
+      <div className="Post__title"><a href={data.image_url} rel="noreferrer" target="_blank">Click Me</a></div>
       <img src={data.image_url} alt={data.title} />
     </div>
   );
