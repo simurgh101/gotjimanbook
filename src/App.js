@@ -1,10 +1,13 @@
 import './App.css';
-import Navbar from './Navbars'
+
+import Navbars from './Navbars';
+import Input from './Input';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbars/>
+      <Input/>
     </div>
   );
 }
