@@ -2,3 +2,31 @@
   margin: 0;
   padding: 0;
 }
+::-webkit-scrollbar {
+  border-radius: 2px;
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #6d6a6a;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(7, 132, 199);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(4, 63, 189);
+}
+
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: beige;
+}
