@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: 0;
 }
 ::-webkit-scrollbar {
   border-radius: 2px;
@@ -32,8 +33,26 @@
 }
 
 .Input {
-  border: 1px solid grey;
+  border: 1px solid rgb(226, 226, 226);
   border-radius: 4px;
   width: 570px;
   margin: 20px auto;
+  background-color: #e8e8e8;
+}
+.input__head {
+  border-bottom: 1px solid rgb(137, 138, 138);
+  border-radius: 2px 2px 0 0;
+  background-color: #e8e8e8;
+  padding: 1rem;
+}
+.input_area {
+  border: none;
+  width: 100%;
+  height: 120px;
+  padding: 5px;
+  font-size: 30px;
+}
+
+.input_area:focus {
+  outline: none;
 }
