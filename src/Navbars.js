@@ -27,8 +27,8 @@ const Navbars = () => {
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                Link
+              <a class="nav-link" href="https://portfolio-scotth.web.app" target='_blank'>
+                Portfolio
               </a>
             </li>
             <li class="nav-item dropdown">
